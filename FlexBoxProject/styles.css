@@ -1,0 +1,156 @@
+/*Browser Reset */
+* {
+    margin: 0;
+    padding: 0;
+  }
+  /*Global Styles*/
+html {
+    font-family: "Roboto", "Roboto", Arial, sans-serif;
+    font-size: 22px;
+    line-height: normal;
+  }
+  body {
+    background-color: #051622;
+    color: #DEB992;
+    opacity: 0.9;
+    text-align: center;
+  }
+  .vice {
+      height: 69px;
+      width: 100%;
+      z-index: 2;
+      position: fixed;
+      background-color:#051622;
+      border-bottom: 1px solid seashell;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+  .logo {
+    display: inline-flex;
+    flex-direction: row;
+    height: 60px;
+    margin-left: 5px;
+  }
+  .navigation li {
+    list-style: none;
+    display: inline-flex;
+    padding-right: 25px;
+  }
+  .navigation a {
+    text-decoration: none;
+    color: #1ba098;
+  }
+  .navigation a:hover {
+    color: #1a857d;
+    transition: all 1s;
+    opacity: 0.5;
+  }
+
+  /* Mission Statement Styles */
+.mission {
+    height: 700px;
+    width: 100%;
+    background-image: url("./resources/Background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    align-content: center;
+    
+  }
+  
+  .goals {
+    background-color: #051622;
+    opacity: 1;
+    text-align: center;
+    position: relative;
+    top: 300px;
+    padding-bottom: 0.125rem;
+  }
+
+  /*Featured Tea Styles */
+.featured {
+    justify-content: space-around;
+    align-content: center;
+    width: 100%;
+    height: auto;
+  }
+  
+  .steeping {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    padding: 5px;
+    text-align: center;
+    position: relative;
+    left: 140px;
+    justify-content: center;
+    justify-items: center;
+  }
+  
+  .spacer {
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  .row {
+    display: inline-flex;
+    flex-direction: row wrap;
+    justify-content: space-around;
+  }
+  .vibes {
+    background-color: #051622;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+  }
+  .pics {
+    margin-top: 50px;
+    position: relative;
+    left: 150px;
+    right: 150px;
+  }
+  
+  .pics img {
+    height: 200px;
+    width: 300px;
+  }
+  .pics figcaption {
+    width: 300px;
+    text-align: center;
+    font-weight: bold;
+    padding: 5px;
+  }
+  .pics h4 {
+    width: 300px;
+    text-align: justify;
+    font-weight: bold;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  
+  /*Footer Styles */
+  footer {
+    display: flex;
+    padding: 10px;
+    flex-flow: row-nowrap;
+    justify-content: space-around;
+    align-content: center;
+    color: seashell;
+  }
+  
+  .contact {
+    margin-top: 20px;
+    height: 200px;
+    width: 100%;
+    text-align: center;
+    background-image: url("./resources/Julian-footer.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    color: seashell;
+  }
+  
+  .copyright {
+    margin: 20px;
+    float: left;
+  }
